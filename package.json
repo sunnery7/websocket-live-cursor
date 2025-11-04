@@ -1,0 +1,14 @@
+{
+  "name": "live_cursor",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
